@@ -1,0 +1,42 @@
+body{
+    margin-top: 20px;
+    font-family: 'Titillium', sans-serif;
+}
+
+.errspan {
+    float: right;
+    margin-right: 15px;
+    margin-top: -38px;
+    position: relative;
+    z-index: 2;
+    color: grey;
+}
+
+#myInput {
+    width: 100%; 
+    font-size: 16px;
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+  }
+  
+  #myTable {
+    border-collapse: collapse; 
+    width: 100%; 
+    border: 1px solid #ddd; 
+    font-size: 18px; 
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left; 
+    padding: 12px; 
+  }
+  
+  #myTable tr {
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  #myTable th, #myTable tr:hover {
+    /* tambah warna grey di table header dan hover */
+    background-color: #f1f1f1;
+  }
